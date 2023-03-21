@@ -37,6 +37,36 @@ html {
   background-color: #cae6e7 !important;
 }
 
-.btn {
+.br-0 {
   border-radius: 0;
+}
+
+/* banner */
+.banner {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.py-100 {
+  padding: 100px 0 200px 0;
+}
+
+.bg-green-50 {
+  background-color: rgb(69, 114, 117, 0.5);
+}
+
+.social-icon {
+  width: 40px;
+}
+
+.social {
+  position: absolute;
+  right: 0;
+  top: 100px;
 }
