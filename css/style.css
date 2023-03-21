@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "theSans-regular";
+  src: url("../fonts/TheSansOffice-Regular_TRIAL.ttf");
+}
+
+@font-face {
+  font-family: "theSans-bold";
+  src: url("../fonts/TheSansOffice-Bold_TRIAL.ttf");
+}
+
+* {
+  font-family: "theSans-regular";
+}
+.bold {
+  font-family: "theSans-bold";
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+/* topbar */
+.logo {
+  height: 30px;
+}
+
+.text-purple {
+  color: #7e57c5;
+}
+
+.btn-green {
+  background-color: #cae6e7 !important;
+}
+
+.btn {
+  border-radius: 0;
+}
