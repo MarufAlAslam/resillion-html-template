@@ -11,7 +11,7 @@ $(".logo-slider").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false,
@@ -19,8 +19,10 @@ $(".logo-slider").slick({
     },
     {
       breakpoint: 600,
+      autoplay: true,
+      autoplaySpeed: 2000,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
@@ -54,6 +56,8 @@ $(".solution-slider").slick({
     },
     {
       breakpoint: 600,
+      autoplay: true,
+      autoplaySpeed: 2000,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -67,4 +71,8 @@ $(".solution-slider").slick({
       },
     },
   ],
+});
+
+$(".menubtn").click(function () {
+  $(".menu").toggle(300);
 });
