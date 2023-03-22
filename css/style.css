@@ -162,7 +162,7 @@ html {
 }
 
 .partners {
-  background-color: #835fc8;
+  background-color: #714eb1;
 }
 .circular-bottom {
   border-bottom-right-radius: 300px;
@@ -170,4 +170,37 @@ html {
 
 .pb-150 {
   padding-bottom: 150px;
+}
+
+/* footer */
+.footer {
+  background-color: #835fc8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../img/footer-bg.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.fs-22 {
+  font-size: 22px;
+}
+input::placeholder {
+  color: white !important;
+}
+input:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+.min-w-400px {
+  min-width: 400px;
+  max-width: 400px;
+  width: 400px;
+}
+
+.btn-pink {
+  background-color: #a98edb !important;
+  border-color: #a98edb;
+}
+.fs-18 {
+  font-size: 18px;
 }
