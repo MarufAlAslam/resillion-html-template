@@ -70,3 +70,34 @@ html {
   right: 0;
   top: 100px;
 }
+
+/* trusted by */
+.fs-20 {
+  font-size: 20px;
+}
+
+.prev {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+.next {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+.trustedby .slide {
+  padding: 15px;
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.trustedby .slick-track {
+  display: flex;
+  align-items: center;
+}
