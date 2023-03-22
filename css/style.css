@@ -141,3 +141,17 @@ html {
 .solution-slider .next {
   top: 40%;
 }
+
+/* call to action */
+.call-to-action {
+  background: url("../img/action.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+.fs-45 {
+  font-size: 45px;
+}
