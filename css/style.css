@@ -101,3 +101,12 @@ html {
   display: flex;
   align-items: center;
 }
+
+/* latest news */
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
