@@ -131,3 +131,13 @@ html {
 .fs-120 {
   font-size: 120px;
 }
+
+/* solutions */
+.btn-purple {
+  background-color: #7e57c5 !important;
+  border-color: #7e57c5;
+}
+.solution-slider .prev,
+.solution-slider .next {
+  top: 40%;
+}
